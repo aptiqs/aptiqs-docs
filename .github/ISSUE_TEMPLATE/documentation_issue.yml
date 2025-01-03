@@ -1,0 +1,26 @@
+name: 📚 Documentation Issue
+description: Report errors or suggest improvements in Aptiqs Documentation
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Issue
+      description: What’s incorrect or needs improvement?
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Which section/page has the issue?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: Suggestions
+      description: How can this be improved?
+    validations:
+      required: false
